@@ -1,0 +1,32 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:2:1-13:12
+	package
+		INJECTED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:3:5-12:19
+service#com.audiovideoplayer.sinima.service.AudioPlaybackService
+ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:4:9-11:19
+	android:exported
+		ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:7:13-36
+	android:foregroundServiceType
+		ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:6:13-58
+	android:name
+		ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:5:13-57
+intent-filter#action:name:androidx.media3.session.MediaSessionService
+ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:8:13-10:29
+action#androidx.media3.session.MediaSessionService
+ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:9:17-86
+	android:name
+		ADDED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:9:25-83
+uses-sdk
+INJECTED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml
+INJECTED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml

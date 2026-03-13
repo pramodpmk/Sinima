@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.audiovideoplayer.sinima.automotive-mergeDebugResources-45:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/home/pramode/.gradle/caches/8.13/transforms/8eead17cd97b986aad909b34575a5b4e/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

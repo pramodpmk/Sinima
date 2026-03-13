@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.audiovideoplayer.sinima" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+6
+7    <application>
+7-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:3:5-12:19
+8        <service
+8-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:4:9-11:19
+9            android:name="com.audiovideoplayer.sinima.service.AudioPlaybackService"
+9-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:5:13-57
+10            android:exported="true"
+10-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:7:13-36
+11            android:foregroundServiceType="mediaPlayback" >
+11-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:6:13-58
+12            <intent-filter>
+12-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:8:13-10:29
+13                <action android:name="androidx.media3.session.MediaSessionService" />
+13-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:9:17-86
+13-->/home/pramode/AndroidStudioProjects/Sinima/common/src/main/AndroidManifest.xml:9:25-83
+14            </intent-filter>
+15        </service>
+16    </application>
+17
+18</manifest>

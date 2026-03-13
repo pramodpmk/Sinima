@@ -1,0 +1,207 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.audiovideoplayer.sinima.automotive"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-feature
+11-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:5:5-93
+12        android:name="android.hardware.type.automotive"
+12-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:5:19-66
+13        android:required="true" />
+13-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:5:67-90
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:7:5-67
+15-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:7:22-64
+16    <uses-permission
+16-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:8:5-107
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:8:22-77
+18        android:maxSdkVersion="32" />
+18-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:8:78-104
+19    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+19-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:9:5-75
+19-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:9:22-72
+20    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+20-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:10:5-75
+20-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:10:22-72
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:11:5-77
+21-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:11:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+22-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:12:5-92
+22-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:12:22-89
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:13:5-68
+23-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:13:22-65
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[androidx.media3:media3-common:1.5.1] /home/pramode/.gradle/caches/8.13/transforms/a8e2317a4ab8fc1b6360118f484c8563/transformed/media3-common-1.5.1/AndroidManifest.xml:22:5-79
+24-->[androidx.media3:media3-common:1.5.1] /home/pramode/.gradle/caches/8.13/transforms/a8e2317a4ab8fc1b6360118f484c8563/transformed/media3-common-1.5.1/AndroidManifest.xml:22:22-76
+25
+26    <permission
+26-->[androidx.core:core:1.18.0] /home/pramode/.gradle/caches/8.13/transforms/652cea3ac34208db44996eb66a7121ce/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.audiovideoplayer.sinima.automotive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.18.0] /home/pramode/.gradle/caches/8.13/transforms/652cea3ac34208db44996eb66a7121ce/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.18.0] /home/pramode/.gradle/caches/8.13/transforms/652cea3ac34208db44996eb66a7121ce/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.audiovideoplayer.sinima.automotive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.18.0] /home/pramode/.gradle/caches/8.13/transforms/652cea3ac34208db44996eb66a7121ce/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.18.0] /home/pramode/.gradle/caches/8.13/transforms/652cea3ac34208db44996eb66a7121ce/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:15:5-42:19
+33        android:name="com.audiovideoplayer.sinima.automotive.AutomotiveApplication"
+33-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:16:9-46
+34        android:allowBackup="true"
+34-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:17:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.18.0] /home/pramode/.gradle/caches/8.13/transforms/652cea3ac34208db44996eb66a7121ce/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:18:9-43
+39        android:label="@string/app_name"
+39-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:19:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:20:9-54
+41        android:supportsRtl="true"
+41-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:21:9-35
+42        android:theme="@style/Theme.Sinima" >
+42-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:22:9-44
+43        <activity
+43-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:25:9-34:20
+44            android:name="com.audiovideoplayer.sinima.automotive.AutomotiveMainActivity"
+44-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:26:13-51
+45            android:exported="true"
+45-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:27:13-36
+46            android:label="@string/app_name"
+46-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:28:13-45
+47            android:theme="@style/Theme.Sinima" >
+47-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:29:13-48
+48            <intent-filter>
+48-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:30:13-33:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:31:17-69
+49-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:31:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:32:17-77
+51-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:32:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:36:9-40:51
+55            android:name="com.audiovideoplayer.sinima.automotive.ui.video.AutomotiveVideoPlayerActivity"
+55-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:37:13-67
+56            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+56-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:39:13-91
+57            android:exported="false"
+57-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:38:13-37
+58            android:theme="@style/Theme.Sinima" />
+58-->/home/pramode/AndroidStudioProjects/Sinima/automotive/src/main/AndroidManifest.xml:40:13-48
+59
+60        <service
+60-->[:common] /home/pramode/AndroidStudioProjects/Sinima/common/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-15:19
+61            android:name="com.audiovideoplayer.sinima.service.AudioPlaybackService"
+61-->[:common] /home/pramode/AndroidStudioProjects/Sinima/common/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-84
+62            android:exported="true"
+62-->[:common] /home/pramode/AndroidStudioProjects/Sinima/common/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-36
+63            android:foregroundServiceType="mediaPlayback" >
+63-->[:common] /home/pramode/AndroidStudioProjects/Sinima/common/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-58
+64            <intent-filter>
+64-->[:common] /home/pramode/AndroidStudioProjects/Sinima/common/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-14:29
+65                <action android:name="androidx.media3.session.MediaSessionService" />
+65-->[:common] /home/pramode/AndroidStudioProjects/Sinima/common/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:17-86
+65-->[:common] /home/pramode/AndroidStudioProjects/Sinima/common/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:25-83
+66            </intent-filter>
+67        </service>
+68
+69        <activity
+69-->[androidx.compose.ui:ui-tooling-android:1.9.2] /home/pramode/.gradle/caches/8.13/transforms/f28d9e0a9da42df7cff11ef85b142204/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+70            android:name="androidx.compose.ui.tooling.PreviewActivity"
+70-->[androidx.compose.ui:ui-tooling-android:1.9.2] /home/pramode/.gradle/caches/8.13/transforms/f28d9e0a9da42df7cff11ef85b142204/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+71            android:exported="true" />
+71-->[androidx.compose.ui:ui-tooling-android:1.9.2] /home/pramode/.gradle/caches/8.13/transforms/f28d9e0a9da42df7cff11ef85b142204/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+72        <activity
+72-->[androidx.compose.ui:ui-test-manifest:1.9.2] /home/pramode/.gradle/caches/8.13/transforms/a1a67efdc2744499f3e2ed8545f5c4d4/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:23:9-26:79
+73            android:name="androidx.activity.ComponentActivity"
+73-->[androidx.compose.ui:ui-test-manifest:1.9.2] /home/pramode/.gradle/caches/8.13/transforms/a1a67efdc2744499f3e2ed8545f5c4d4/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:24:13-63
+74            android:exported="true"
+74-->[androidx.compose.ui:ui-test-manifest:1.9.2] /home/pramode/.gradle/caches/8.13/transforms/a1a67efdc2744499f3e2ed8545f5c4d4/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:25:13-36
+75            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+75-->[androidx.compose.ui:ui-test-manifest:1.9.2] /home/pramode/.gradle/caches/8.13/transforms/a1a67efdc2744499f3e2ed8545f5c4d4/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:26:13-76
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/400aed3605a671729ac90a467513a2d0/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/400aed3605a671729ac90a467513a2d0/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+79            android:authorities="com.audiovideoplayer.sinima.automotive.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/400aed3605a671729ac90a467513a2d0/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/400aed3605a671729ac90a467513a2d0/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/400aed3605a671729ac90a467513a2d0/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/400aed3605a671729ac90a467513a2d0/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/400aed3605a671729ac90a467513a2d0/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/pramode/.gradle/caches/8.13/transforms/28cb2684c4e15f7954e8d1afe88a7c8d/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/pramode/.gradle/caches/8.13/transforms/28cb2684c4e15f7954e8d1afe88a7c8d/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/pramode/.gradle/caches/8.13/transforms/28cb2684c4e15f7954e8d1afe88a7c8d/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/pramode/.gradle/caches/8.13/transforms/1c0625049342eca579cd634abcf48721/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>

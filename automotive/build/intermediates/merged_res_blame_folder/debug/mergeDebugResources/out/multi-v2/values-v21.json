@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.audiovideoplayer.sinima.automotive-mergeDebugResources-45:/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/home/pramode/.gradle/caches/8.13/transforms/9c624b1f5a51df4c8b029a26c9273d62/transformed/media3-session-1.5.1/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,217,374,536",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "212,369,531,692"
+                    },
+                    "to": {
+                        "startLines": "8,11,14,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "401,563,720,882",
+                        "endLines": "10,13,16,19",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "558,715,877,1038"
+                    }
+                },
+                {
+                    "source": "/home/pramode/.gradle/caches/8.13/transforms/8cf137fecb68c79ec5a3b2e5ae266e32/transformed/media3-ui-1.5.1/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endLines": "2,7",
+                        "endColumns": "58,10",
+                        "endOffsets": "109,396"
+                    }
+                }
+            ]
+        }
+    ]
+}

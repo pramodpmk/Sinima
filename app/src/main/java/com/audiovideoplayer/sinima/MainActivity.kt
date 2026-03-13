@@ -16,6 +16,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -31,6 +32,7 @@ import com.audiovideoplayer.sinima.ui.livevideo.LiveVideoScreen
 import com.audiovideoplayer.sinima.ui.navigation.Screen
 import com.audiovideoplayer.sinima.ui.theme.SinimaTheme
 import com.audiovideoplayer.sinima.ui.video.VideoListScreen
+import com.audiovideoplayer.sinima.ui.video.VideoPlayerActivity
 import com.audiovideoplayer.sinima.viewmodel.AudioPlaybackState
 import com.audiovideoplayer.sinima.viewmodel.AudioViewModel
 import com.audiovideoplayer.sinima.viewmodel.VideoViewModel
@@ -130,13 +132,24 @@ fun SinimaApp() {
                 )
             }
             composable(Screen.VideoList.route) {
-                VideoListScreen(viewModel = videoViewModel)
+                val context = LocalContext.current
+                VideoListScreen(
+                    viewModel = videoViewModel,
+                    onVideoClick = { uri, title ->
+                        context.startActivity(VideoPlayerActivity.createIntent(context, uri, title))
+                    }
+                )
             }
             composable(Screen.LiveAudio.route) {
                 LiveAudioScreen(viewModel = audioViewModel)
             }
             composable(Screen.LiveVideo.route) {
-                LiveVideoScreen()
+                val context = LocalContext.current
+                LiveVideoScreen(
+                    onStreamClick = { url, title ->
+                        context.startActivity(VideoPlayerActivity.createIntent(context, url, title))
+                    }
+                )
             }
         }
     }

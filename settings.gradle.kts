@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Sinima"
 include(":app")
+include(":common")
+include(":automotive")
  
